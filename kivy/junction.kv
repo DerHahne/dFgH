@@ -1,0 +1,180 @@
+#:kivy 1.0.9
+
+<Elevator>:
+    size: 5, 10
+    canvas:
+        Color:
+            rgb:self.color
+        Rectangle:
+            pos:self.pos
+            size:self.size
+
+<JunctionKONE>:   
+    elevator1: elevator_left
+    elevator2: elevator_center
+    elevator3: elevator_right
+
+    Elevator:
+        id: elevator_left
+        center_x: root.width * 5 / 10
+        center_y: root.height * 1 / 22
+
+    Elevator:
+        id: elevator_center
+        center_x: root.width * 7 / 10
+        center_y: root.height * 1 / 22
+
+    Elevator:
+        id: elevator_right
+        center_x: root.width * 9 / 10
+        center_y: root.height * 1 / 22
+      
+    Label:
+        font_size: 30
+        center_x: root.width / 10
+        center_y: root.height * 21 / 22
+        text: "Floor"
+
+    Label:
+        font_size: 30
+        center_x: root.width * 3 / 10
+        center_y: root.height * 21 / 22
+        text: "People"
+        
+    Label:
+        font_size: 30
+        center_x: root.width * 5 / 10
+        center_y: root.height * 21 / 22
+        text: "Elevator 1"
+
+    Label:
+        font_size: 30
+        center_x: root.width * 7 / 10
+        center_y: root.height * 21 / 22
+        text: "Elevator 2"
+
+    Label:
+        font_size: 30
+        center_x: root.width * 9 / 10
+        center_y: root.height * 21 / 22
+        text: "Elevator 3"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 1 / 22
+        text: "k2"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 2 / 22
+        text: "k1"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 3 / 22
+        text: "1"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 4 / 22
+        text: "2"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 5 / 22
+        text: "3"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 6 / 22
+        text: "4"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 7 / 22
+        text: "5"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 8 / 22
+        text: "6"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 9 / 22
+        text: "7"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 10 / 22
+        text: "8"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 11 / 22
+        text: "9"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 12 / 22
+        text: "10"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 13 / 22
+        text: "11"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 14 / 22
+        text: "12"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 15 / 22
+        text: "13"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 16 / 22
+        text: "14"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 17 / 22
+        text: "15"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 18 / 22
+        text: "16"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 19 / 22
+        text: "17"
+
+    Label:
+        font_size: 15
+        center_x: root.width / 10
+        center_y: root.height * 20 / 22
+        text: "18"
