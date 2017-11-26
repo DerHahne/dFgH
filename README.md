@@ -1,1 +1,6 @@
-Welcome to Smart Elevator Control - a project by dFgH at Junction17
+# Smart Elevator Control
+This project was build for the Junction 2017 Intelligent Buildings Track, by the team dFgH. The scripts are controlling elevators (simulated in the KONE API) based on people movements, which are aggregated by a raspberry-pi camera. 
+
+### How to get the project running?
+To run the project python2.7 with opencv and kivy libraries is need. At least some special API libraries by KONE (other license, so they are not in the git) are needed to run the project, to get these please contact the company.
+
