@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#Run it using python3
 import io
 import picamera
 import logging
@@ -84,6 +84,7 @@ with picamera.PiCamera(resolution='640x480', framerate=2) as camera:
     try:
         address = ('', 3000)
         server = StreamingServer(address, StreamingHandler)
+        print('Running! Visit localhost:3000 to see the image')
         server.serve_forever()
     finally:
         camera.stop_recording()
